@@ -1,3 +1,2 @@
 # Portfólio Ciência de Dados - Bruno Freitas
-Primary portfolio that will assist in migration to Data Science career
-Exercício de Commit
+Tenho o objetivo de gerar valor para as pessoas e empresas através do estudo contínuo sobre novas ferramentas e tecnologias que nos permitem transformar dados em informação útil para a tomada de decisão e esse portfólio foi criado como forma de auxiliar no auto aprendizado e centralizar projetos já realizados. Originalmente disponibilizo aplicações por atuar como analista em marketing digital como prestador de serviços à agência de publicidade. Por isto as primeiras aplicações são aplicadas a esta área.
