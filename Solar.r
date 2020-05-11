@@ -16,11 +16,11 @@ library(fpc)
 #####
 #Carregando os Tweets
 #Voce precisar ter uma conta no Twitter e autorizar
-#Limite de 18.000 tweets a cada 15 minutos
+#Limite de 18.000 tweets a cada 15 minutos -  (No foi passível 4.000)
 solar_tweets <- search_tweets(
   "#solar", n = 4000, include_rts = FALSE,lang = "en")
 
-#Rapida visualiza�ao - exemplo tirado da propia documenta�ao da rtweet
+#Rapida visualizaçao - exemplo tirado da propia documentaçao da rtweet
 solar_tweets %>%
   ts_plot("1 hours") +
   ggplot2::theme_minimal() +
@@ -33,7 +33,7 @@ solar_tweets %>%
   )
 
 #####
-#O trabalho de Minera�ao de Textos - Text Mining
+#O trabalho de Mineraçao de Textos - Text Mining
 solar_text <- solar_tweets$text
 
 #Criando e limpando o corpus
@@ -44,7 +44,7 @@ solar_text_corpus <- tm_map(solar_text_corpus, content_transformer(tolower))
 solar_text_corpus <- tm_map(solar_text_corpus, removePunctuation)
 solar_text_corpus <- tm_map(solar_text_corpus,removeWords, stopwords("english"))
 
-#Primeira visualiza�ao
+#Primeira visualização
 wordcloud(solar_text_corpus,min.freq=2,max.words=100)
 formatacao <- brewer.pal(8,"Dark2")
 wordcloud(solar_text_corpus,min.freq=2,max.words=100, random.order=T, colors=formatacao)
@@ -60,7 +60,7 @@ solar_frequencia <- colSums(as.matrix(solar_dtm))
 length(solar_frequencia) 
 tail(solar_frequencia,10)
 
-#Removendo termos espar�os
+#Removendo termos esparços
 solar_dtms <- removeSparseTerms(solar_dtm, 0.98) 
 solar_dtms
 
@@ -73,7 +73,7 @@ solar_frequencia
 #Convertendo a matriz de frequencia em dataframe para o plot
 solar_plot <- data.frame(word=names(solar_frequencia), freq=solar_frequencia)
 
-#Criando o grafico
+#Criando o gráfico
 grafico <- ggplot(subset(solar_plot, solar_frequencia>800), aes(x = reorder(word, -freq), y = freq)) +
   geom_bar(stat = "identity") + 
   theme(axis.text.x=element_text(angle=45, hjust=1)) +
@@ -81,7 +81,7 @@ grafico <- ggplot(subset(solar_plot, solar_frequencia>800), aes(x = reorder(word
   labs(y="Frequencia", x = "Termos")
 grafico
 
-#Removendo palavras especificas e limpando novamente o corpus
+#Removendo palavras específicas e limpando novamente o corpus
 solar_text_corpus <- tm_map(solar_text_corpus, removeWords, c("energy","solar"))
 solar_dtms <- removeSparseTerms(DocumentTermMatrix(solar_text_corpus) , 0.98) 
 solar_dtms
@@ -92,7 +92,7 @@ length(solar_frequencia)
 solar_frequencia <- sort(colSums(as.matrix(solar_dtms)), decreasing=TRUE) 
 solar_frequencia
 
-#Convertendo a matriz de frequencia em dataframe para o plot
+#Convertendo a matriz de frequência em dataframe para o plot
 solar_plot <- data.frame(word=names(solar_frequencia), freq=solar_frequencia)
 
 #Criando o grafico
@@ -114,7 +114,7 @@ solar_dtms2
 distancia <- dist(t(solar_dtms2), method="euclidian")   
 dendograma <- hclust(d=distancia, method="complete")distancia <- dist(t(solar_dtms2), method="euclidian")   
 dendograma <- hclust(d=distancia, method="complete")
-plot(dendograma, hang=-1,main = "Dendograma Tweets solar - Gas Marketing",
+plot(dendograma, hang=-1,main = "Dendograma Tweets Energia Solar - Bruno Freitas",
      xlab = "Distancia",
      ylab = "Altura")
 
@@ -125,16 +125,16 @@ rect.hclust(dendograma, k=5, border="red")
 #Clustering 2 - K-Means
 kmeans_btc <- kmeans(distancia, 5)   
 clusplot(as.matrix(distancia), kmeans_btc$cluster, color=T, shade=T, labels=3, lines=0,
-         main = "K-Means Tweets solar - Outspoken Market",
+         main = "K-Means Tweets Enrgia Solar - Outspoken Market",
          xlab = "PC1",
          ylab = "PC2") 
-associacao_veicular_tweets %>%
+solar_tweets %>%
   ts_plot("1 hours") +
   ggplot2::theme_minimal() +
   ggplot2::theme(plot.title = ggplot2::element_text(face = "bold")) +
   ggplot2::labs(
     x = NULL, y = NULL,
-    title = "Frequencia de #associacao_veicular Twitter posts",
+    title = "Frequencia de #Energia Solar Twitter posts",
     subtitle = "Tweets a cada 1 hora",
     caption = "\nSource: Dados coletados da Twitter's REST API via rtweet"
   )
