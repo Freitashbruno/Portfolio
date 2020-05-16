@@ -6,3 +6,4 @@ Os projetos são apresentados em iPython Notebooks (publicados no Github), arqui
 
 * R
 
+** construução de análise de mineração de textos (text mining) utilizando tweets coletados sobre o Bitcoin. Passo a passo feito em R.
