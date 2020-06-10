@@ -4,6 +4,6 @@ Tenho como objetivo a agregação de valor para as diversas instituições atrav
 # Projetos
 Os projetos são apresentados em iPython Notebooks (publicados no Github), arquivos R markdown (publicados no Rpubs), aplicações Power BI (com link direto para a aplicação) e as competições de Machine Learning possuem link direto para o kernel público postado no Kaggle.
 
-* R
+* Projetos em R
 
   * Construção de análise de mineração de textos (text mining) utilizando tweets coletados sobre o Bitcoin. Passo a passo feito em R.
