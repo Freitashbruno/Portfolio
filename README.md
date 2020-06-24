@@ -9,8 +9,7 @@ Tenho como objetivo mostrar projetos em ciência de dados, usando o estudos de c
 # Projetos
 * Projetos em Python
 Nuvem de palavras  -  Realizei download do relatório de buscas feitas pelo usuários de um  site no Google Search Console para analisar os principais termos de buscas. Com isto, é possível gerar insights e obter  ideias para temas que possam ser usados em  publicações no blog de maneira mais assertiva.
-
-![]_()
+![nuvem de palavras]_(https://github.com/Freitashbruno/Portfolio/blob/master/Minera%C3%A7%C3%A3o_de_texto_SaveCerrado.ipynb)
 * Projetos em  R
 
   * Construção de análise de mineração de textos (text mining) utilizando tweets coletados sobre o Bitcoin. Passo a passo feito em R.
