@@ -8,7 +8,8 @@ Tenho como objetivo mostrar projetos em ciência de dados, usando o estudos de c
  Por atuar como analista de marketing digital para uma agência de publicidade, planejei uma migração para a carreira de cientista de dados de maneira gradual ao longo dos anos. Por isto os primeiros projetos são aplicações de análise de dados na área de marketing. Fica registrada aqui, um processo de evolução do conhecimento adquirido ao longo dos projetos. Os primeiros projetos podem parecer muito óbvios mas serviram de ajuda em definição de ações importantes.
 # Projetos
 * Projetos em Python
-Nuvem de palavras  - Realizei download do relatório de buscas feitas pelo usuários de um  site do Google Search Console para analisar os principais termos de buscas. Com isto, é possível gerar insights e obter  ideias para temas que possam ser usados em  publicações no blog de maneira mais assertiva.
+Nuvem de palavras  -  Realizei download do relatório de buscas feitas pelo usuários de um  site no Google Search Console para analisar os principais termos de buscas. Com isto, é possível gerar insights e obter  ideias para temas que possam ser usados em  publicações no blog de maneira mais assertiva.
+
 ![]_()
 * Projetos em  R
 
