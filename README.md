@@ -14,3 +14,5 @@ Nuvem de palavras  -  Realizei download do relatório de buscas feitas pelo usu�
 * Projetos em  R
 
   * Construção de análise de mineração de textos (text mining) utilizando tweets coletados sobre o Bitcoin. Passo a passo feito em R.
+
+(https://github.com/Freitashbruno/Portfolio/commit/6b71174fd6db09e8e48e270e917fee233683f912)
