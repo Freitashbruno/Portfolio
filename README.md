@@ -14,6 +14,8 @@ Nuvem de palavras  -  Realizei download do relatório de buscas feitas pelo usu�
 
 Resolução de  projeto  Regressão Linear  que faz parte do curso  Python para Data Science e Machine Learning pela Udemy
 
+A simulação de uma empresa que está tentando decidir se deve concentrar seus esforços em sua experiência em aplicativos móveis ou em seu site.
+
 (https://github.com/Freitashbruno/Portfolio/blob/master/Regress%C3%A3o_Linear_Projeto.ipynb)
 
 
