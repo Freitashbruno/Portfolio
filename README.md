@@ -14,7 +14,7 @@ Nuvem de palavras  -  Realizei download do relatório de buscas feitas pelo usu�
 
 Resolução de  projeto  Regressão Linear  que faz parte do curso  Python para Data Science e Machine Learning pela Udemy
 
-https://github.com/Freitashbruno/Portfolio/blob/master/Regress%C3%A3o_Linear_Projeto.ipynb
+(https://github.com/Freitashbruno/Portfolio/blob/master/Regress%C3%A3o_Linear_Projeto.ipynb)
 
 
 * Projetos em  R
