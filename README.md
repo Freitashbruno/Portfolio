@@ -18,7 +18,8 @@ A simulação de uma empresa que está tentando decidir se deve concentrar seus 
 
 (https://github.com/Freitashbruno/Portfolio/blob/master/Regress%C3%A3o_Linear_Projeto.ipynb)
 
-
+Neste projeto estaremos trabalhando com um conjunto de dados falso de publicidade, indicando se um usuário de internet específico clicou ou não em uma propaganda. Vamos tentar criar um modelo que preveja se clicará ou não em um anúncio baseado nos recursos desse usuário
+(https://github.com/Freitashbruno/Portfolio/blob/master/Projeto_de_Regress%C3%A3o_Log%C3%ADstica_para_github.ipynb )
 * Projetos em  R
 
   * Construção de análise de mineração de textos (text mining) utilizando tweets coletados sobre o Bitcoin. Passo a passo feito em R.
