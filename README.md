@@ -19,7 +19,11 @@ A simulação de uma empresa que está tentando decidir se deve concentrar seus 
 (https://github.com/Freitashbruno/Portfolio/blob/master/Regress%C3%A3o_Linear_Projeto.ipynb)
 
 Neste projeto estaremos trabalhando com um conjunto de dados falso de publicidade, indicando se um usuário de internet específico clicou ou não em uma propaganda. Vamos tentar criar um modelo que preveja se clicará ou não em um anúncio baseado nos recursos desse usuário
-(https://github.com/Freitashbruno/Portfolio/blob/master/Projeto_de_Regress%C3%A3o_Log%C3%ADstica_para_github.ipynb )
+(https://github.com/Freitashbruno/Portfolio/blob/master/Projeto_de_Regress%C3%A3o_Log%C3%ADstica_para_github.ipynb 
+
+O k-nearest neighbors (KNN) é um algoritmo de aprendizado de machine learning supervisionado simples e fácil de implementar que pode ser usado para resolver problemas de classificação e regressão. Segue exemplo de uma aplicação deste algoritmo.
+(https://colab.research.google.com/gist/Freitashbruno/87522ce53fc2565fd59226eb966a1cbe/k-nearest-neighbors-projeto-para-github2.ipynb?authuser=1 )
+
 * Projetos em  R
 
   * Construção de análise de mineração de textos (text mining) utilizando tweets coletados sobre o Bitcoin. Passo a passo feito em R.
