@@ -22,7 +22,12 @@ Neste projeto estaremos trabalhando com um conjunto de dados falso de publicidad
 (https://github.com/Freitashbruno/Portfolio/blob/master/Projeto_de_Regress%C3%A3o_Log%C3%ADstica_para_github.ipynb 
 
 O k-nearest neighbors (KNN) é um algoritmo de aprendizado de machine learning supervisionado simples e fácil de implementar que pode ser usado para resolver problemas de classificação e regressão. Segue exemplo de uma aplicação deste algoritmo.
-(https://colab.research.google.com/gist/Freitashbruno/87522ce53fc2565fd59226eb966a1cbe/k-nearest-neighbors-projeto-para-github2.ipynb?authuser=1 )
+(https://colab.research.google.com/gist/Freitashbruno/87522ce53fc2565fd59226eb966a1cbe/k-nearest-neighbors-projeto-para-github2.ipynb?authuser=1 
+
+Para este projeto, estaremos explorando dados disponíveis publicamente de LendingClub.com. Lending Club conecta pessoas que precisam de dinheiro (mutuários) com pessoas que têm dinheiro (investidores). Felizmente, como investidor, você gostaria de investir em pessoas que mostraram um perfil de ter uma alta probabilidade de pagá-lo de volta. Vamos tentar criar um modelo que ajude a prever isso.
+
+O clube de empréstimo teve um ano muito interessante em 2016, então vamos verificar alguns de seus dados e ter em mente o contexto. Esses dados são de antes mesmo de serem públicos.
+(https://colab.research.google.com/gist/Freitashbruno/e99594129373e02b062c2ad8cda9ca28/projeto-rvores-de-decis-o-e-florestas-aleat-rias-para-github.ipynb?authuser=2 )
 
 * Projetos em  R
 
