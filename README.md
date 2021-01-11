@@ -27,8 +27,18 @@ O k-nearest neighbors (KNN) é um algoritmo de aprendizado de machine learning s
 Para este projeto, estaremos explorando dados disponíveis publicamente de LendingClub.com. Lending Club conecta pessoas que precisam de dinheiro (mutuários) com pessoas que têm dinheiro (investidores). Felizmente, como investidor, você gostaria de investir em pessoas que mostraram um perfil de ter uma alta probabilidade de pagá-lo de volta. Vamos tentar criar um modelo que ajude a prever isso.
 
 O clube de empréstimo teve um ano muito interessante em 2016, então vamos verificar alguns de seus dados e ter em mente o contexto. Esses dados são de antes mesmo de serem públicos.
-(https://colab.research.google.com/gist/Freitashbruno/e99594129373e02b062c2ad8cda9ca28/projeto-rvores-de-decis-o-e-florestas-aleat-rias-para-github.ipynb?authuser=2 )
+(https://colab.research.google.com/gist/Freitashbruno/e99594129373e02b062c2ad8cda9ca28/projeto-rvores-de-decis-o-e-florestas-aleat-rias-para-github.ipynb?authuser=2 
 
+
+
+A Análise de Componentes Principais (em inglês PCA) é o nome comum dado à técnica que usa princípios de álgebra linear para transformar variáveis, possivelmente correlacionadas, em um número menor de variáveis chamadas de Componentes Principais (novamente em inglês PC).
+
+A PCA é usada em diversas aplicações, desde a compressão de dados (MP3, JPG) até remoção de ruídos, passando pela análises de grande quantidade de dados.
+
+fonte: https://ocefpaf.github.io/python4oceanographers/blog/2014/12/01/PCA/#:~:text=A%20An%C3%A1lise%20de%20Componentes%20Principais,(novamente%20em%20ingl%C3%AAs%20PC).
+
+O Método de PCA facilita a criação de modelo para os dados estudados, pois simplifica o referido modelo ao descartar dimensões desnecessárias para a análise. Eliminam-se variáveis que serviriam apenas para a geração de ruídos.
+(https://github.com/Freitashbruno/Portfolio/blob/master/An%C3%A1lise_do_componente_principal(PCA).ipynb)
 * Projetos em  R
 
   * Construção de análise de mineração de textos (text mining) utilizando tweets coletados sobre o Bitcoin. Passo a passo feito em R.
