@@ -39,6 +39,10 @@ fonte: https://ocefpaf.github.io/python4oceanographers/blog/2014/12/01/PCA/#:~:t
 
 O Método de PCA facilita a criação de modelo para os dados estudados, pois simplifica o referido modelo ao descartar dimensões desnecessárias para a análise. Eliminam-se variáveis que serviriam apenas para a geração de ruídos.
 (https://github.com/Freitashbruno/Portfolio/blob/master/An%C3%A1lise_do_componente_principal(PCA).ipynb)
+
+Os sistemas de recomendação são métodos relativamente novos e muito usados em serviços de streaming como spotify e Netflix. Também bastante utilizados em sites de vendas em geral.
+(https://github.com/Freitashbruno/Portfolio/blob/master/Sistema_de_recomenda%C3%A7%C3%A3o_simples.ipynb )
+
 * Projetos em  R
 
   * Construção de análise de mineração de textos (text mining) utilizando tweets coletados sobre o Bitcoin. Passo a passo feito em R.
