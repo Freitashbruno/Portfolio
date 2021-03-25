@@ -12,7 +12,7 @@ Tenho como objetivo mostrar projetos em ciência de dados, usando o estudos de c
 Nuvem de palavras  -  Realizei download do relatório de buscas feitas pelo usuários de um  site no Google Search Console para analisar os principais termos de buscas. Com isto, é possível gerar insights e obter  ideias para temas que possam ser usados em  publicações no blog de maneira mais assertiva.
 (https://github.com/Freitashbruno/Portfolio/blob/master/Minera%C3%A7%C3%A3o_de_texto_SaveCerrado_para_github.ipynb )
 
-Projeto de Machine Learning desenvolvido na “Semana de Data Science” da escola Minerando Dados. No projeto, desenvolvido inicialmente através do dataset nativo do python boston, que descreve os valores de imóveis a partir de uma quantidade de variáveis. A partir então desta análise, desenvolvemos um modelo com uso de alguns algoritmos de machine learning para entendermos qual deles trazia melhores índice de predições calculado por meio do RMSE. Como resultado final foi desenvolvido uma aplicação com extensão .py que ilustra a predição dos imóveis.
+Projeto de Machine Learning desenvolvido na “Semana de Data Science” da escola Minerando Dados. No projeto, desenvolvido inicialmente através do dataset nativo do python “boston”, que descreve os valores de imóveis por meio de uma quantidade de variáveis. A partir então desta análise, desenvolvemos um modelo com uso de alguns algoritmos de machine learning para entendermos qual deles trazia melhores índice de predições de preços calculado por meio do RMSE. Como resultado final foi desenvolvido uma aplicação com extensão .py que ilustra a predição de preços dos imóveis.
 
 (https://github.com/Freitashbruno/Portfolio/blob/master/SemanaDS.ipynb)
 
